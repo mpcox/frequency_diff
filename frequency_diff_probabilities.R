@@ -56,4 +56,5 @@ frequency_diff <- function(iterations, baseline.frequency, test.frequency, test.
 
 }
 
-frequency_diff(10000, 183/273, 8/17, 17)
+frequency_diff(100000, 0.670, 8/17, 17)
+
