@@ -61,7 +61,8 @@ density <- frequency_diff(10000, 0.670, 8/17, 17, return.sims=TRUE)
 hist(density, ylab="density", xlab="simulated frequency", main="")
 lines(c(0.670,0.670), c(0,95000), lwd=2, col="red")
 ```
-
-<img src="frequency_density.jpg" alt="Frequency density" width="300"/>
+<p align="center">
+<img src="frequency_density.jpg" alt="Frequency density" width="700"/>
+</p>
 
 Note that these densities are not (usually) normally distributed and become strongly asymmetrical as test frequencies approach the boundary conditions of 0 and 1.
