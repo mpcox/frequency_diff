@@ -62,6 +62,6 @@ hist(density, ylab="density", xlab="simulated frequency", main="")
 lines(c(0.670,0.670), c(0,95000), lwd=2, col="red")
 ```
 
-![Frequency density](frequency_density.jpg)
+<img src="frequency_density.jpg" alt="Frequency density" width="300"/>
 
 Note that these densities are not (usually) normally distributed and become strongly asymmetrical as test frequencies approach the boundary conditions of 0 and 1.
